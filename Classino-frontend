@@ -1,1 +1,16 @@
 cd path/to/classino-frontend
+classino-frontend/
+├── public/
+│   └── index.html
+├── src/
+│   ├── App.jsx
+│   ├── index.js
+│   ├── config.js
+│   └── components/
+│       ├── ClassSpin.jsx
+│       ├── JobSpin.jsx
+│       ├── PrizeSpin.jsx
+│       └── TopBar.jsx
+├── package.json
+├── vite.config.js
+└── README.md
