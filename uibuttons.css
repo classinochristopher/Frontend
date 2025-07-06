@@ -1,0 +1,59 @@
+.ui-buttons {
+  position: relative;
+  text-align: center;
+}
+
+.spin-button {
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.calendar-button {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+}
+
+.camera-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+.slider-container {
+  position: fixed;
+  bottom: 80px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: white;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.submit-wrapper {
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.account-button {
+  position: fixed;
+  top: 15px;
+  left: 15px;
+  font-size: 20px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.progress-button {
+  position: fixed;
+  top: 15px;
+  right: 15px;
+  font-size: 20px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
